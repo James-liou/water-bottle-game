@@ -3,15 +3,16 @@ import { WaterBottle, WaterBottleColor } from "./water_bottle";
 
 // 73
 // const initialWaterBottles: (WaterBottleColor[])[] = [
-//     [WaterBottleColor.浅蓝, WaterBottleColor.浅绿, WaterBottleColor.褐, WaterBottleColor.浅绿],
-//     [WaterBottleColor.深绿, WaterBottleColor.浅绿, WaterBottleColor.黄, WaterBottleColor.深绿],
-//     [WaterBottleColor.深蓝, WaterBottleColor.黄, WaterBottleColor.深蓝, WaterBottleColor.褐],
-//     [WaterBottleColor.浅蓝, WaterBottleColor.红, WaterBottleColor.灰, WaterBottleColor.灰],
-//     [WaterBottleColor.黄, WaterBottleColor.紫, WaterBottleColor.褐, WaterBottleColor.灰],
-//     [WaterBottleColor.深绿, WaterBottleColor.浅蓝, WaterBottleColor.紫, WaterBottleColor.深蓝],
-//     [WaterBottleColor.红, WaterBottleColor.浅绿, WaterBottleColor.红, WaterBottleColor.深绿],
-//     [WaterBottleColor.紫, WaterBottleColor.褐, WaterBottleColor.深蓝, WaterBottleColor.红],
-//     [WaterBottleColor.灰, WaterBottleColor.黄, WaterBottleColor.紫, WaterBottleColor.浅蓝],
+//     [WaterBottleColor.褐, WaterBottleColor.深紫, WaterBottleColor.深藍, WaterBottleColor.淺藍],
+//     [WaterBottleColor.粉, WaterBottleColor.橙, WaterBottleColor.深紫, WaterBottleColor.深绿],
+//     [WaterBottleColor.紅, WaterBottleColor.淺藍, WaterBottleColor.深綠, WaterBottleColor.淺紫],
+//     [WaterBottleColor.淺綠, WaterBottleColor.粉, WaterBottleColor.橙, WaterBottleColor.淺紫],
+//     [WaterBottleColor.深藍, WaterBottleColor.淺藍, WaterBottleColor.紅, WaterBottleColor.深綠],
+//     [WaterBottleColor.淺藍, WaterBottleColor.紅, WaterBottleColor.淺紫, WaterBottleColor.褐],
+//     [WaterBottleColor.红, WaterBottleColor.橙, WaterBottleColor.深紫, WaterBottleColor.褐],
+//     [WaterBottleColor.粉, WaterBottleColor.淺綠, WaterBottleColor.深藍, WaterBottleColor.淺紫],
+//     [WaterBottleColor.淺綠, WaterBottleColor.粉, WaterBottleColor.橙, WaterBottleColor.深紫],
+//     [WaterBottleColor.深藍, WaterBottleColor.淺綠, WaterBottleColor.深綠, WaterBottleColor.褐],
 //     [],
 //     []
 // ].map(item => item.reverse())
@@ -107,16 +108,16 @@ import { WaterBottle, WaterBottleColor } from "./water_bottle";
 // ].map(item => item.reverse())
 
 const initialWaterBottles: (WaterBottleColor[])[] = [
-    [1, 2, 4, 8],
-    [2, 6, 1, 0],
-    [8, 2, 6, 8],
-    [3, 4, 5, 7],
-    [1, 6, 0, 9],
-    [5, 2, 3, 3],
-    [4, 5, 7, 9],
-    [0, 9, 8, 0],
-    [5, 4, 6, 1],
-    [3, 7, 9, 7],
+    [7, 4, 0, 1],
+    [9, 8, 4, 2],
+    [6, 1, 2, 5],
+    [3, 9, 8, 5],
+    [0, 1, 6, 2],
+    [1, 6, 5, 7],
+    [6, 8, 4, 7],
+    [9, 3, 0, 5],
+    [3, 9, 8, 4],
+    [0, 3, 2, 7],
     [],
     [],
 ].map(item => item.reverse())
